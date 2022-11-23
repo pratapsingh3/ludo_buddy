@@ -1,0 +1,369 @@
+* {
+	box-sizing: border-box;
+}
+
+body,* {
+	margin: 0;
+}
+
+.pBody{
+	padding: 20px;
+}
+
+.tLeft{
+	float: left;
+}
+
+.tClear{
+	clear: both;
+}
+
+.tRight{
+	float: right;
+}
+
+.inputb{
+	width: 94%;
+}
+
+.inputc{
+	
+	margin-left: 20px!important;
+}
+
+.inputd{
+	margin-bottom: 2px!important;
+
+}
+
+.inputb input{
+	border-radius: 50px 0px 0px 50px;
+	margin-left: 18px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+
+.inputl{
+	width: 5%;
+	background-color: #fff;
+	height: 41px;
+	padding-top: 7px;
+	margin-top: 0.5px;
+	border-radius: 0px 50px 50px 0px;
+}
+
+.forget{
+	margin-top: -16px
+}
+
+.play{
+	margin-top: -15px;
+}
+
+.maininput{
+	padding-top: 17px;
+	padding-bottom: 19px;
+}
+
+.buy-input span{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+.rounded-right1{
+	border-radius: 0px 25px 25px 0px;
+}
+
+.rounded-left1{
+	border-radius: 25px 0px 0px 25px;
+}
+
+.sellp{
+	padding-left: 254px;
+	padding-bottom: 12px;
+}
+
+.sell-input{
+	text-align: right;
+}
+
+.divid div{
+	width: 33.3%;
+	margin: auto;
+}
+
+.logoanimation a{
+	color: transparent;
+	background-image: linear-gradient(to right, #173f5f, #20639b, #3caea3, #f6d55c, #ed553b);
+	-webkit-background-clip: text;
+	animation: animate 20s linear infinite;
+	background-size: 1000%;
+}
+
+.f-1{
+	padding-top: 28px;
+	padding-left: 18px;
+	margin-bottom: 21px
+}
+
+@keyframes animate{
+	0%{
+		background-position: 0 100%;
+	}
+	
+	50%{
+		background-position: 100% 0;
+	}
+	
+	100%{
+		background-position: 0 100%;
+	}
+}
+
+/* img */
+
+.logologin{
+	width: 300px;
+	padding-top: 83px;	
+}
+
+.logoverify{
+	width: 500px;
+	/* padding-top: 83px;	 */
+}
+
+.logoreg{
+	width:200px;
+	padding-top: 41px;
+}
+
+/* Font Family */
+
+.f1{
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.f2{
+	font-family: 'Source Sans Pro',sans-serif;
+	font-size: 15px;
+}
+
+.f3{
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Font */
+
+.f-12{
+	font-size: 12px;
+}
+
+.f-13{
+	font-size: 13px;
+}
+
+.f-14{
+	font-size: 14px;
+}
+
+.f-16 {
+	font-size: 16px;
+}
+
+.f-18{
+	font-size: 18px;
+}
+
+.f-22p5 {
+	font-size: 22.5px;
+}
+
+.f-24{
+	font-size: 24px;
+}
+
+.f-25{
+	font-size: 25px;
+}
+
+/* font color */
+
+.grayf{
+	color: #555;
+}
+
+.grayf2{
+	color: #999999;
+}
+
+.dgrayf{
+	color: #ccc;
+}
+
+.lgrayf{
+	color: #999999;
+}
+.hgray{
+	color: #eee;
+}
+
+.redF{
+	color:#e74c3c;
+}
+
+
+.bluef{
+	color: #3c8dbc;
+}
+
+.bluef:Hover{
+	color: #fff;	
+}
+
+.logon a{
+	color: #444;
+}
+
+.logon{
+	background-color: #fff;
+}
+
+.logon a:Hover{
+	color:#fff;
+}
+
+.logon:hover{
+	background-color: #ddd;
+}
+
+/* Border color */
+
+.greyB {
+	border-color: #d2d6de;
+}
+
+.br1{
+	border-bottom: solid 1px #666;
+	padding: 10px 0;
+}
+
+/* background color */
+
+.blackbg{
+	background-color: #222222;
+}
+
+.blackbg1{
+	background-color: #464545;
+}
+
+.blackbg2{
+	border: solid 4px #464545!important;
+}
+
+.grad{
+	background: linear-gradient(to bottom,#2a0845,#6441a5);
+}
+
+.grad1{
+	border-radius: 5px;
+	border-bottom: solid 2px #fff;
+}
+
+.tablebor{
+	border-radius: 5px;
+	border-bottom: solid 2px #fff;
+}
+
+.bg-grad{
+	background: linear-gradient(to bottom,#2a0845,#6441a5);
+}
+
+.graylab{
+	background-color: #464545;
+}
+
+.loginb:Hover{
+	background-color: #008d4c;
+}
+
+.registerb{
+	background-color: #3c8dbc;
+	border-color: #367fa9;
+}
+
+.registerb:Hover{
+	background-color: #367fa9;
+}
+
+/* .navbg{ */
+	/* background-color: #e7e7e7; */
+/* } */
+
+/* Shadow */
+
+.blueshadow{
+	border-bottom: solid 1px #fff;
+	border-top: solid 3px #00c0ef;
+	border-radius: 5px 5px 0 0;
+}
+
+.grayshadow{
+	border-bottom: solid 1px #fff;
+	border-top: solid 3px #d2d6de;
+	border-radius: 5px 5px 0 0;
+}
+
+/* Font Weight */
+
+
+.fw500{
+	font-weight: 500;
+}
+
+/* Navigation */
+
+header{
+	position: relative;
+	max-width: 100%;
+	background: #e7e7e7;
+	box-sizing: border box;
+}
+
+.logo {
+	color: #000;
+	height: 60px;
+	font-size: 36px;
+	line-height: 60px;
+	padding: 0 25px;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	font-weight: 700;
+}
+
+nav{
+	float: right;
+}
+
+.clearfix{
+	clear: both;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	display: block;
+	margin: 10px 0px;
+	padding: 8px 20px;
+	color: #777;
+}
